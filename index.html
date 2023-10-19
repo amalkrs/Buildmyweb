@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="file.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light col-lg-12 col-12" style="background-color:  rgba(22, 214, 214, 0.074); z-index: 1;" id="home">
+            <a class="navbar-brand" href="#"><img src="buildlogo.png" width="100" height="50" class="d-inline-block align-top" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#form">Register</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#mentor">Mentors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#part">Participate</a>
+                </li>
+              </ul> 
+            </div>
+         </nav>
+
+         <div id="carouselExampleSlidesOnly" class="carousel slide col-lg-12" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="carousel.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="carousel2.png" alt="Second slide">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12" id="part">
+            <div style="display: flex; justify-content: center; align-items: center;"><p>Join Us</p><br></div>
+            <div style="display: flex; justify-content: center; align-items: center;"><p>pygrammer is a coummunity of phython enthusiasits with similar ideologies and interest</p><br></div>
+            <div style="display: flex; justify-content: center; align-items: center;"><input type="button" class="btn btn-primary col-lg-4" value="submit form"></div>
+          </div>
+
+          <div class="justify-content-center col-lg-12" style="display: flex; margin-top: 40px; justify-content: center; align-items: center;" id="form">
+            <form action="/action_page.php" class="col-lg-4" style="padding-top: 20px; padding-bottom: 20px; border: 1px; border-style: solid; border-color: rgba(147, 145, 145, 0.399);">
+              <div>  
+              <div><h4><center>Form:</center></h4></div>
+                 <div class="form-group" >
+                    <label for="email" style="display: flex; justify-content: center; align-items: center;">Name</label>
+                    <input type="text" class="form-control" id="text">
+                  </div>
+                  <div class="form-group">
+                    <label for="number" style="display: flex; justify-content: center; align-items: center;">Mobile Number</label>
+                    <input type="number" class="form-control" id="number">
+                  </div>
+                <div class="form-group">
+                  <label for="email" style="display: flex; justify-content: center; align-items: center;">Email address:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="name" style="display: flex; justify-content: center; align-items: center;">Company / institution Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="row" style="display: flex; justify-content: center; align-items: center;">
+                    <label for="exampleFormControlFile1" style="display: flex; margin-left:25px; margin-right:25px; font-size: 14px;">Upload a short image or video of hand written sheet showing your interest to join build.myweb</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1" style="display: flex; margin-left:40px;">
+                </div>
+                <div>
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref" style="display: flex; justify-content: center; align-items: center;"></label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref"  style="display: flex; justify-content: center; align-items: center;">
+                    <option>Have you attended any programm by pygrammers before?!</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                    </select>
+                </div>    
+              </div>
+              <div class="button">
+                <button class="btn-primary">Submit Form</button>
+              </div>
+            </form>
+           </div>
+
+          <div class="row" style="background-color: rgba(0, 255, 255, 0.118);" id="mentor">
+                <div class="row justify-content-center col-lg-12">
+                    <h5>Mentor</h5>
+                </div>
+             <div style="display: flex; justify-content: center; align-items: center; margin-top: 50px;" class="col-lg-4 col-12"><center><img src="mentor.jpg" height="200px" width="300px"><figcaption style="font-size: small; padding-left: 110px; padding-right: 110px; padding-top: 20px; text-align: left;">Noun After college, her professor became her close friend and mentor. He needed a mentor to teach him about the world of politics</figcaption></div>
+             <div style="display: flex; justify-content: center; align-items: center; margin-top: 50px;" class="col-lg-4 col-12"><center><img src="mentor.jpg" height="200px" width="300px"><figcaption style="font-size: small; padding-left: 110px; padding-right: 110px; padding-top: 20px; text-align: left;">Noun After college, her professor became her close friend and mentor. He needed a mentor to teach him about the world of politics</figcaption></div>
+             <div style="display: flex; justify-content: center; align-items: center; margin-top: 50px;" class="col-lg-4 col-12"><center><img src="mentor.jpg" height="200px" width="300px"><figcaption style="font-size: small; padding-left: 110px; padding-right: 110px; padding-top: 20px; text-align: left;">Noun After college, her professor became her close friend and mentor. He needed a mentor to teach him about the world of politics</figcaption></div>
+             <div style="display: flex; justify-content: center; align-items: center; margin-top: 70px;" class="col-lg-4 col-12"><center><img src="mentor.jpg" height="200px" width="300px"><figcaption style="font-size: small; padding-left: 110px; padding-right: 110px; padding-top: 20px; text-align: left;">Noun After college, her professor became her close friend and mentor. He needed a mentor to teach him about the world of politics</figcaption></div>
+             <div style="display: flex; justify-content: center; align-items: center; margin-top: 70px;" class="col-lg-4 col-12"><center><img src="mentor.jpg" height="200px" width="300px"><figcaption style="font-size: small; padding-left: 110px; padding-right: 110px; padding-top: 20px; text-align: left;">Noun After college, her professor became her close friend and mentor. He needed a mentor to teach him about the world of politics</figcaption></div>
+             <div style="display: flex; justify-content: center; align-items: center; margin-top: 70px;" class="col-lg-4 col-12"><center><img src="mentor.jpg" height="200px" width="300px"><figcaption style="font-size: small; padding-left: 110px; padding-right: 110px; padding-top: 20px; text-align: left;">Noun After college, her professor became her close friend and mentor. He needed a mentor to teach him about the world of politics</figcaption></div>>
+    
+            <div class="col-lg-12" style="background-color: rgba(22, 214, 214, 0.074); display: flex; justify-content: center; align-items: center;">
+                <img src="footer.png" width="170" height="40" class="d-inline-block align-top" alt="">
+
+          </div>
+      
+     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</body>
+</html>
